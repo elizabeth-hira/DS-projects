@@ -1,0 +1,21 @@
+Computer Games - Исследование компьютерных игр (выявить определяющие успешность игры закономерности)
+Подготовка данных для анализа. Предварительное исследование датасета. Формулирование и проверка гипотез. Визуализация
+данных.
+Используемые технологии: pandas, pyplot, scipy.stats
+
+Telecom - прогноз оттока клиентов (бинарная классификация)
+Исследовательский анализ данных (pandas, pyplot, seaborn). Подготовка данных к обучению (StandardScaler, One-Hot
+ Encoding). Обучение моделей (GridSearchCV, CatBoostClassifier, LGBMClassifier, sklearn: DecisionTreeClassifier,
+  RandomForestClassifier, LogisticRegression). Анализ моделей (sklearn.metrics: roc_auc_score, accuracy_score).
+Результат: roc-auc 83% c LGBMClassifier.
+
+Comments - классификация текстов
+Обработка текста (WordNetLemmatizer, re). Подготовка текста к обучению (TfidfVectorizer, nltk: stopwords). Обучение
+ моделей (GridSearchCV, CatBoostClassifier, LGBMClassifier, sklearn: DecisionTreeClassifier, RandomForestClassifier,
+  LogisticRegression). BERT(DistilBERT: transformers, torch). Анализ моделей (sklearn.metrics: f1_score).
+Результат: f1_score 82% c DistilBERT на текстах длиной до 50 символов.
+
+Client Age - определение возраста покупателей.
+Исследовательский анализ данных(pyplot). Подготовка изображений к обучению (ImageDataGenerator). ResNet50 (Sequential,
+Sequential, GlobalAveragePooling2D, Dense, Adam).
+Результат: MAE 6.54 на тестовой выборке.
