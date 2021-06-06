@@ -7,7 +7,7 @@ Telecom - прогноз оттока клиентов (бинарная кла�
 Исследовательский анализ данных (pandas, pyplot, seaborn). Подготовка данных к обучению (StandardScaler, One-Hot
  Encoding). Обучение моделей (GridSearchCV, CatBoostClassifier, LGBMClassifier, sklearn: DecisionTreeClassifier,
   RandomForestClassifier, LogisticRegression). Анализ моделей (sklearn.metrics: roc_auc_score, accuracy_score).
-Результат: roc-auc 83% c LGBMClassifier.
+Результат: roc-auc 91% c LGBMClassifier.
 
 Comments - классификация текстов
 Обработка текста (WordNetLemmatizer, re). Подготовка текста к обучению (TfidfVectorizer, nltk: stopwords). Обучение
